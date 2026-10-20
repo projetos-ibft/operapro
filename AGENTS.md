@@ -2,10 +2,10 @@
 
 Este repositório é a base que o Claude Code lê ao trabalhar na operação do **IBFT** (Instituto Brasileiro de Formação de Terapeutas) e do **Onion**. Ele junta duas coisas:
 
-- **`base-conhecimento/`**: os MDs 00 a 14, o conhecimento do negócio e da operação. É a **fonte única**: os Projetos do Claude (claude.ai) e o Drive recebem cópias daqui.
+- **`base-conhecimento/`**: os MDs 00 a 15, o conhecimento do negócio e da operação. É a **fonte única**: os Projetos do Claude (claude.ai) e o Drive recebem cópias daqui.
 - **`.claude/skills/`**: os roteiros de trabalho para as tarefas do dia a dia da gestão de projetos.
 
-O método de gestão é a **Operação Turbinada**, da OperaPro, aplicado ao IBFT (MD 10, seção 1). Toda a operação de lançamentos roda em três ferramentas: a planilha de **Planos e Pedidos** de cada projeto (MD 13), o **Asana** com Kanbans e automações (MD 14) e o **Google Drive** organizado em cinco unidades (MD 10, seção 3).
+O método de gestão é a **Operação Turbinada**, da OperaPro: o método em si, com o roteiro de implantação, está no MD 15; como ele está aplicado no IBFT, no MD 10, seção 1. Toda a operação de lançamentos roda em três ferramentas: a planilha de **Planos e Pedidos** de cada projeto (MD 13), o **Asana** com Kanbans e automações (MD 14) e o **Google Drive** organizado em cinco unidades (MD 10, seção 3).
 
 ## Comece por aqui
 
@@ -18,6 +18,7 @@ O método de gestão é a **Operação Turbinada**, da OperaPro, aplicado ao IBF
 | Abrir ou conferir a pasta de um projeto no Drive; onde salvar ou achar um arquivo | `estrutura-drive` | 10, 13 |
 | Criar, revisar ou testar automação, campo, opção ou Kanban no Asana; entender por que uma tarefa parou | `automacoes-asana` | 14, 10 |
 | Abrir projeto, TAP, kickoff, sprint, andamento, relatório de status, debriefing | `gestao-de-projetos` | 10, 05, 11 |
+| Implantar o método numa unidade nova (LATAM, Onion, um setor novo), acompanhar a implantação ou explicar o método | `implantar-operacao-turbinada` | 15, 10, 14, 13 |
 | Escrever copy | (sem skill) | 07, 06, 05, 02/03, 12, e o MD 13 para saber em qual documento a peça entra |
 
 ## Regras de trabalho
@@ -41,8 +42,9 @@ O método de gestão é a **Operação Turbinada**, da OperaPro, aplicado ao IBF
 ```
 AGENTS.md                      este arquivo (o CLAUDE.md aponta para ele)
 README.md                      para quem instala e mantém
-base-conhecimento/MD00..MD14   a base (fonte única)
-.claude/skills/                planos-e-pedidos, estrutura-drive, automacoes-asana, gestao-de-projetos
+base-conhecimento/MD00..MD15   a base (fonte única)
+.claude/skills/                planos-e-pedidos, estrutura-drive, automacoes-asana, gestao-de-projetos,
+                               implantar-operacao-turbinada
 apps-script/                   cópia de leitura do Apps Script do Planos e Pedidos (v10.35) e o histórico
 ```
 
@@ -50,6 +52,8 @@ apps-script/                   cópia de leitura do Apps Script do Planos e Pedi
 
 | Termo | O que é |
 | :---- | :---- |
+| **Operação Turbinada** | o método de gestão da OperaPro: Planejamento, Produção e Operação, implantado em seis etapas (MD 15) |
+| **PE** | projeto especial ou estruturante (`PE-NNN`), sem receita direta; a implantação do método numa unidade é um PE |
 | **Planos e Pedidos (P&P)** | a planilha de cada projeto, uma linha por peça; gera tarefas, documentos de copy e pastas (MD 13) |
 | **TAP** | Termo de Abertura do Projeto: escopo, metas, datas, responsáveis |
 | **Checklist** | o cronograma mestre do projeto, com as datas de entrega de cada área |

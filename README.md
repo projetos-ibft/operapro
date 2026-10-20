@@ -8,8 +8,9 @@ Base de conhecimento e roteiros de trabalho para o Claude usado na operação do
 
 ## O que tem aqui
 
-- `base-conhecimento/`: os MDs 00 a 14. O 13 (Planos e Pedidos e estrutura do Drive) e o 14 (Asana: campos e automações) são novos; o 10 foi reescrito; o 00, o 05 e o 11 foram atualizados; os demais só tiveram o cabeçalho ajustado para a nova contagem. O MD 04 é o do Projeto `🧠[IBFT] Base de Conhecimento` (estrutura didática e grade de módulos), e o MD 04a é a síntese completa das transcrições, que circulava com o nome de MD 04.
-- `.claude/skills/`: quatro skills que o Claude Code carrega sozinho ao abrir a pasta: `planos-e-pedidos`, `estrutura-drive`, `automacoes-asana` e `gestao-de-projetos`.
+- `base-conhecimento/`: os MDs 00 a 15. O 13 (Planos e Pedidos e estrutura do Drive) e o 14 (Asana: campos e automações) são novos; o 10 foi reescrito; o 00, o 05 e o 11 foram atualizados; os demais só tiveram o cabeçalho ajustado para a nova contagem. O MD 04 é o do Projeto `🧠[IBFT] Base de Conhecimento` (estrutura didática e grade de módulos), e o MD 04a é a síntese completa das transcrições, que circulava com o nome de MD 04.
+- **Em 20/10/2026:** o MD 15 (Operação Turbinada: o método e como implantar) é novo; o 13 ganhou o Checklist aba por aba, a sprint de cada peça, as regras de montagem e as pastas do padrão OperaPro e as pegadinhas do importador do Asana; o 14 ganhou o racional dos campos, a montagem da estrutura pela tela e o painel da sprint; o 00 ganhou o mapa novo.
+- `.claude/skills/`: cinco skills que o Claude Code carrega sozinho ao abrir a pasta: `planos-e-pedidos`, `estrutura-drive`, `automacoes-asana`, `gestao-de-projetos` e `implantar-operacao-turbinada`.
 - `apps-script/`: cópia de leitura do código que roda no template de Planos e Pedidos, para consulta e manutenção.
 - `AGENTS.md`: o contexto que o Claude lê ao abrir o projeto (o `CLAUDE.md` aponta para ele).
 
