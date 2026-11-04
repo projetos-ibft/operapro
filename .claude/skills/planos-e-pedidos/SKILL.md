@@ -78,7 +78,7 @@ Leia a planilha e responda com uma lista do que está certo e do que precisa de 
 
 ## 7. Backlog para o Asana
 
-Siga o MD 13, seção 9: duplicar `⏳Backlog - Template`, renomear `DD-MM-AAAA⏳Backlog`, colar as peças **casando coluna por nome** (a aba de Ads não tem `🕥Horário`), baixar CSV, importar no `⏳Backlog`, marcar `Subido Asana?` = ✅. Você pode gerar o bloco já na ordem das 30 colunas do backlog.
+Siga o MD 13, seção 9: duplicar `⏳Backlog - Template`, renomear `DD-MM-AAAA⏳Backlog`, colar as peças **casando coluna por nome** (a aba de Ads não tem `🕥Horário`), baixar CSV, importar no Backlog da frente do projeto (`⏳[BR] Backlog`, `⏳[ES] Backlog` ou `⏳[Conteúdo] Backlog`, MD 14, seção 2; na dúvida, pergunte ao GP qual), marcar `Subido Asana?` = ✅. Você pode gerar o bloco já na ordem das 30 colunas do backlog.
 
 ## Regras desta skill
 
