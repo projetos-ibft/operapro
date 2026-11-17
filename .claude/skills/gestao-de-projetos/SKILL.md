@@ -7,7 +7,7 @@ description: Conduzir um projeto do IBFT do início ao fechamento pelo método O
 
 Referências: **MD 10** (seção 7.1, o ciclo do lançamento; seção 6, os rituais; seção 11, os relatórios e o Velocímetro), **MD 05** (seção 8, o que cada fase pede), **MD 13** (Planos e Pedidos) e **MD 14** (Asana).
 
-## 1. Abrir um projeto (fase de Início)
+## 1. Abrir um projeto (fase de Iniciação)
 
 Monte com a pessoa o checklist de abertura, na ordem do guia de transição (MD 10, seção 7.1), dizendo o que já existe e o que falta:
 
@@ -49,7 +49,7 @@ Formato:
 
 Números saem do Asana e da planilha; a leitura (por que travou, o que fazer) é julgamento e se escreve como tal.
 
-## 5. Fechamento (Debriefing)
+## 5. Encerramento (Debriefing)
 
 Prepare o roteiro do Debriefing (MD 10, seção 7.1): resultados contra as metas do TAP e do Planejamento (MD 11, seção 9), cumprimento de cronograma por fase, retrabalho (campos `Correção ...?`), pontos entregues por setor, o que funcionou e o que mudar no próximo. Modelos de apresentação: `4.02` › `[Template] Apresentações`. Depois, a pasta do projeto vai para `Projetos Finalizados`.
 
